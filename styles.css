@@ -1,0 +1,112 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7; /* Color de fondo */
+}
+
+header {
+    background-color: #ffd700; /* Amarillo */
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    color: #006400; /* Verde oscuro */
+}
+
+section {
+    padding: 20px;
+}
+
+#descripcion {
+    background-color: #ffffff; /* Blanco */
+}
+
+#descripcion h2 {
+    color: #006400; /* Verde oscuro */
+}
+
+#menu {
+    background-color: #f0f0f0; /* Gris claro */
+}
+
+#menu h2 {
+    color: #006400; /* Verde oscuro */
+}
+
+#menu ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#menu ul li {
+    margin-bottom: 10px;
+}
+
+#reserva {
+    background-color: #ffffff; /* Blanco */
+    text-align: center;
+}
+
+#reserva h2 {
+    color: #006400; /* Verde oscuro */
+}
+
+#reserva button {
+    background-color: #006400; /* Verde oscuro */
+    color: #ffffff; /* Blanco */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#reserva button:hover {
+    background-color: #004d00; /* Verde más oscuro al pasar el mouse */
+}
+
+#contacto {
+    background-color: #ffd700; /* Amarillo */
+    color: #006400; /* Verde oscuro */
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+#contacto h2 {
+    margin-top: 0;
+}
+
+footer {
+    background-color: #006400; /* Verde oscuro */
+    color: #ffffff; /* Blanco */
+    text-align: center;
+    padding: 20px;
+}
+
+footer h3 {
+    margin-top: 0;
+}
+
+footer div {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+footer div a {
+    color: #ffffff; /* Blanco */
+    font-size: 24px;
+}
+
+img {
+    width: 25%;
+}
+
+header div p {
+    display: flex;
+    gap: 10em;
+    font-size: 18px;
+}
